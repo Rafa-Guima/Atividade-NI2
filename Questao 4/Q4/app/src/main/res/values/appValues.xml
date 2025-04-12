@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="appColor1">#0000ff</color>
+        <color name="appColor2">#FFFFFF</color>
+        <color name="appColor3">#000000</color>
+        <color name="appColor4">#FFF200</color>
+
+        <string name="appBtnIniciar">Começar</string>
+
+        <string name="appOrder">Faça seu pedido!</string>
+        <string name="appTitulo">Lanche Fácil</string>
+        <string name="appInsiraNome">Insira seu nome:</string>
+        <string name ="appLanche1">X-Burguer</string>
+        <string name ="appLanche2">X-Salada</string>
+        <string name ="appLanche3">X-Tudo</string>
+        <string name ="appLanche4">Refrigerante</string>
+        <string name="appPedidoConcluido">Pedido Concluído!</string>
+        <string name="appName">-----</string>
+        <string name="appPedido">-----</string>
+
+        <string name ="appBtnFazerPedido">Fazer Pedido!</string>
+
+        <string name="appBtnRetornar">Voltar ao Inicio</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appTitulo">Sistema de Compras</string>
+    <string name="appSubTitulo">Escolha seus produtos:</string>
+    <string name="appProduto1">Arroz 1 Kg (R$ 2,69) </string>
+    <string name="appProduto2"> Leite longa vida (R$ 2,70) </string>
+    <string name="appProduto3">Carne Friboi (R$ 16,70) </string>
+    <string name="appProduto4">Feijão carioquinha 1 Kg (R$ 3,38) </string>
+    <string name="appProduto5">Refrigerante coca-cola 2 litros (R$3,00) </string>
+    <string name="appResultado">-----</string>
+
+    <string name="appBtn">Gasto total</string>
+
+    <color name="appColor1">#5050B6</color>
+    <color name="appColor2">#0000FF</color>
+    <color name="appColor3">#000000</color>
+    <color name="appColor4">#FFFFFF</color>
+    <color name="appColor5">#A09898</color>
+
+
+
+</resources>

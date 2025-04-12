@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/appColor1"
+    android:padding="10dp"
+    >
+
+
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appTitulo"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/appColor3"
+        android:background="@color/appColor5"
+        />
+
+    <TextView
+        android:id="@+id/textSubTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appSubTitulo"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/appColor3"
+        android:background="@color/appColor4"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appProduto1"
+        android:background="@color/appColor4"
+        android:fontFamily="monospace"
+        android:textSize="15sp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appProduto2"
+        android:background="@color/appColor4"
+        android:fontFamily="monospace"
+        android:textSize="15sp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appProduto3"
+        android:background="@color/appColor4"
+        android:fontFamily="monospace"
+        android:textSize="15sp"/>
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appProduto4"
+        android:background="@color/appColor4"
+        android:fontFamily="monospace"
+        android:textSize="15sp"/>
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appProduto5"
+        android:background="@color/appColor4"
+        android:fontFamily="monospace"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appBtn"
+        android:onClick="enviar"
+        android:backgroundTint="@color/appColor2"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appResultado"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/appColor3"
+        android:background="#FFFFFF"/>
+
+
+</LinearLayout>

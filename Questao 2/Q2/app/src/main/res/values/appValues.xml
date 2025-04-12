@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appTitulo">Calculo de Aumento Salarial</string>
+    <string name="appSubTitulo">Digite o seu Salário Atual:</string>
+    <string name="appSalario1">Aumento de 40% </string>
+    <string name="appSalario2"> Aumento de 45% </string>
+    <string name="appSalario3">Aumento de 50% </string>
+    <string name ="appHint1">Digite seu salário:</string>
+
+    <string name="appResultado">-----</string>
+
+    <string name="appBtn">Aumento Salarial!</string>
+
+    <color name="appColor1">#5050B6</color>
+    <color name="appColor2">#0000FF</color>
+    <color name="appColor3">#000000</color>
+    <color name="appColor4">#FFFFFF</color>
+    <color name="appColor5">#A09898</color>
+
+
+
+</resources>
