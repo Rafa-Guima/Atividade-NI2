@@ -27,7 +27,7 @@ Aplicativo voltado ao registro rápido de novos clientes da loja "Tem de Tudo", 
 - Formulário simples para inserir o nome do cliente.  
 - Após o envio, uma mensagem personalizada confirma o sucesso do cadastro.
 
-## 4. Registro de Pedidos — Lanchonete "Lanche Fácil"  
+## 4. Registro de Pedidos — Hamburgueria - "Lanche Fácil"  
 Simula o atendimento básico em uma lanchonete, permitindo que o cliente escolha um lanche e visualize o pedido feito.
 
 ### Passos:
