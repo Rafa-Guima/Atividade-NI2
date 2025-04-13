@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name ="appColor1">#D62828</color>
+    <color name="appColor2">#0c0c0c</color>
+    <color name="appColor3">#F8F8F2</color>
+    <color name="appColor4">#F95738</color>
+    <color name="appColor5">#D3CFC9</color>
+
+
+    <string name="btnIniciar">Bora lá!</string>
+    <string name="btnPizza">Próximo!</string>
+    <string name="btnPagamento">Finalizar</string>
+    <string name="btnVoltar">Volte para o começo!</string>
+    <string name="respostaFinal">Pedido Anotado ! Jackpot !</string>
+
+    <string name="escolhaPizza">Pick Your Poison!</string>
+    <string name="pizzaMarguerita">Pizza Marguerita</string>
+    <string name="pizzaCalabresa">Pizza Calabresa</string>
+    <string name="pizzaFC">Pizza Frango e Catupiry</string>
+    <string name="escolhaT">Qual tamanho?</string>
+    <string name="tamanho1">Brotinho</string>
+    <string name="tamanho2">Grande</string>
+    <string name="tamanho3">Fome do Diabo</string>
+    <string name="escolhaP">Vai pagar como ?</string>
+    <string name="pgDinheiro">Pagamento em Dinheiro</string>
+    <string name="pgCartao">Pagamento com Cartão</string>
+
+    <string name="resultadoPag">-----</string>
+    <string name="resultadoPed">-----</string>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

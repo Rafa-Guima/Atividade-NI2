@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".saborPizza"
+    android:background="@color/appColor2"
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="177dp"
+        android:layout_height="158dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/appColor5"
+        app:srcCompat="@drawable/pizza2"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/escolhaPizza"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:shadowColor="@color/appColor3"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:textColor="@color/appColor1"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:text="@string/escolhaPizza"/>
+
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaMarguerita"
+        android:textColor="@color/appColor5"/>
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaCalabresa"
+        android:textColor="@color/appColor5"/>
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaFC"
+        android:textColor="@color/appColor5"/>
+
+    <Button
+        android:id="@+id/btnPizza"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_marginTop="30sp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPizza"
+        android:backgroundTint="@color/appColor1"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>

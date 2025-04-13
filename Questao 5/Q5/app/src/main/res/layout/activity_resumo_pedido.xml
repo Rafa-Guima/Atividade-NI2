@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".resumoPedido"
+    android:background="@color/appColor2">
+
+    <ImageView
+        android:id="@+id/imgfim"
+        android:layout_width="276dp"
+        android:layout_height="477dp"
+        app:srcCompat="@drawable/fim"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textFinalizador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:shadowColor="@color/appColor3"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="@string/respostaFinal"
+        android:textColor="@color/appColor1"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resultadoPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/resultadoPag"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:textColor="@color/appColor5"/>
+
+    <TextView
+        android:id="@+id/resultadoPagamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/resultadoPed"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:textColor="@color/appColor5"/>
+
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:text="@string/btnVoltar"
+        android:backgroundTint="@color/appColor1"
+        android:textSize="20sp"
+        android:onClick="voltarParaPrimeiraPagina"/>
+
+</LinearLayout>
