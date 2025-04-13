@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -44,6 +45,7 @@ public class tamanhoPagamento extends AppCompatActivity {
                 Bundle extras = getIntent().getExtras();
                 ArrayList<String> sabores = extras.getStringArrayList("SABORES");
                 double valorBase = extras.getDouble("VALOR_BASE");
+                //Pensei em não calcular a pizza com base no tamanho mas sim dar um valor multiplicativo pelo tamanho da pizza
 
                 String tamanho = "";
                 double multiplicador = 1.0;
@@ -64,6 +66,16 @@ public class tamanhoPagamento extends AppCompatActivity {
                     pagamento = "Cartão";
                 } else if (rb5.isChecked()) {
                     pagamento = "Dinheiro";
+                }
+
+                // Garantindo que não tenha erro caso não selecione nada
+                if (rg1.getCheckedRadioButtonId() == -1) {
+                    Toast.makeText(tamanhoPagamento.this, "Selecione um tamanho de pizza!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if (rg2.getCheckedRadioButtonId() == -1) {
+                    Toast.makeText(tamanhoPagamento.this, "Selecione uma forma de pagamento!", Toast.LENGTH_SHORT).show();
+                    return;
                 }
 
                 double valorFinal = valorBase * multiplicador;

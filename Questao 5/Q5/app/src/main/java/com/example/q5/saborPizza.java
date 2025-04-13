@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -46,6 +47,11 @@ public class saborPizza extends AppCompatActivity {
                 if (cb3.isChecked()) {
                     sabores.add("Pizza de Frango com Catupiry");
                     valorTotal += 50;
+                }
+
+                if (sabores.isEmpty()) {
+                    Toast.makeText(saborPizza.this, "Por favor, selecione ao menos um sabor de pizza!", Toast.LENGTH_SHORT).show();
+                    return;
                 }
 
                 Bundle bundle = new Bundle();
